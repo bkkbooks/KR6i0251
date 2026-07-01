@@ -1,0 +1,63 @@
+canonical_identifier: bkk:krp/KR6i0251/v1
+canonical_location: https://kanripo.org/bkk/KR6i0251/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 坐禪三昧經
+  identifiers:
+    alt_id:
+    - T15n0614
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T15/T15n0614.xml
+    old_id: T15n0614
+  edition:
+    short: bkk
+editions:
+- short: 宮
+  label: 宮
+  source_xml_id: wit3
+- short: 元
+  label: 元
+  source_xml_id: wit1
+- short: 明
+  label: 明
+  source_xml_id: wit2
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0251_000.yaml, hash: 'sha256:ab6f80e4e22ef057fe48940cf7c3cf215333a89690170b8f4429dbb2808dabc9'}
+  - {seq: 1, filename: KR6i0251_001.yaml, hash: 'sha256:f16b634f30bb76768d13bccc5a545620a43205ad9371e453087f4f8373a0128d'}
+  - {seq: 2, filename: KR6i0251_002.yaml, hash: 'sha256:040ac01b3d6abce7b6ca9dd1424b5896a2169d3e7b31af1b545278c4a2d295fe'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0251_001.markers.yaml, hash: 'sha256:dec363f5beb5a74fe39346319ca3ac9c0700d3ecce44ab213bcfb0d0e17e7845'}
+  - {seq: 2, role: markers, filename: assets/KR6i0251_002.markers.yaml, hash: 'sha256:690e6746ef1ef1dbf156c69c3f2484194a9d50a6a18ce9d88e60208c48b326e1'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0251_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 10218
+  label: 坐禪三昧經卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0251_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 12490
+  label: 坐禪三昧經卷下
+  type: juan
+  level: 1
+hash: sha256:809c6d6d24a41275d5cb65b9b2a873faa9e41529b6f256e5ad63995e08c535d9
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

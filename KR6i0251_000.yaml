@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6i0251/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 坐禪三昧經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T15/T15n0614.xml
+    old_id: T15n0614
+hash: sha256:ab6f80e4e22ef057fe48940cf7c3cf215333a89690170b8f4429dbb2808dabc9
